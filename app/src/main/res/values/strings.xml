@@ -3,8 +3,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="back">Back</string>
-    <string name="playlist">Playlist</string>
     <string name="title_detail">Emotional Well-being Healing Practices for Children</string>
     <string name="subtitle_detail">In this series, we break down the impact of displacement, instability, violence, and trauma in children, and offer exercises to support children in their healing journey.</string>
     <string name="try_again">Try again</string>
+    <string name="playlist">Playlist</string>
+    <string name="title">Emotional Well-being Healing Practices for Children</string>
+    <string name="data_playlists">32 video series</string>
+    <string name="error">No Internet Connection</string>
 </resources>

@@ -8,15 +8,15 @@ abstract class BaseActivity(private val layout : Int) : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(layout)
-        showDisconnectState() // метод который отображает подкл к интернету // сделать абстрактным
-        // для того что бы можно было вызвать с любого активити
-        setupLiveData() // обсерверы и т.д.
-        setupUI() // инициализация всех ui элементов вкл адаптер
+        setupUI()               // инициализация всех ui элементов вкл адаптер
+        setupLiveData()         // обсерверы и т.д.
+        showDisconnectState()   // метод который отображает подкл к интернету // сделать абстрактным
+                                // для того что бы можно было вызвать с любого активити
     }
 
-    abstract  fun setupLiveData()
-
     abstract fun setupUI()
+
+    abstract  fun setupLiveData()
 
     abstract fun showDisconnectState()
 
