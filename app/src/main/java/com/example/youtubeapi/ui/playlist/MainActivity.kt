@@ -4,7 +4,6 @@ import android.app.Dialog
 import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
-import android.os.Bundle
 import android.view.WindowManager
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -14,8 +13,8 @@ import com.example.youtubeapi.base.BaseActivity
 import com.example.youtubeapi.model.playlist.Items
 import com.example.youtubeapi.network.Connection
 import com.example.youtubeapi.ui.detail.DetailActivity
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.alert_dialog.*
-import kotlinx.android.synthetic.main.scroll_view.*
 
 class MainActivity : BaseActivity(R.layout.activity_main), OnItemClickListener {
 
@@ -65,7 +64,6 @@ class MainActivity : BaseActivity(R.layout.activity_main), OnItemClickListener {
             putExtra(ID_VIDEO, items)
         }
         startActivity(intent)
-
     }
 }
 
