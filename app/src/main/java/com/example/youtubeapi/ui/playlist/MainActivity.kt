@@ -66,12 +66,6 @@ class MainActivity : BaseActivity(R.layout.activity_main), OnItemClickListener {
         }
         startActivity(intent)
 
-        /*       val send = Intent(this, DetailActivity::class.java)
-        val b = Bundle()
-        b.putSerializable(ID_VIDEO, items)
-        send.putExtras(b)
-        startActivity(send)
-    }*/
     }
 }
 

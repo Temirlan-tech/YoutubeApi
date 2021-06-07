@@ -29,12 +29,10 @@ class MainViewModel : BaseViewModel() {
         youtubeApi.fetchAllPlayList(Constants.PART, Constants.CHANNEL_ID, Constants.API_KEY)
             .enqueue(object: Callback<ModelPlaylist>{
                 override fun onResponse(call: Call<ModelPlaylist>, response: Response<ModelPlaylist>) {
-                        Log.e("TAG", "onResponse: " + response.message().toString())
                         data.value = response.body()
                 }
 
                 override fun onFailure(call: Call<ModelPlaylist>, t: Throwable) {
-                    Log.e("TAG", "onResponse: " + t.message.toString())
                 }
             })
 
