@@ -7,4 +7,5 @@ object Constants {
     const val CHANNEL_ID = "UCApdP81v1rMFGiFUq-A7vBQ"
     const val API_KEY = "AIzaSyBCwirEVB4p9OrL5_DIxKfkRTXcPn8FFxg"
     const val ID_VIDEO = "key"
+    const val ID_DETAIL = "key"
 }

@@ -65,6 +65,7 @@ class MainActivity : BaseActivity(R.layout.activity_main), OnItemClickListener {
         }
         startActivity(intent)
     }
+
 }
 
 
